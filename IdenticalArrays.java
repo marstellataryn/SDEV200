@@ -8,12 +8,12 @@ public class IdenticalArrays {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user to enter the first 3x3 array
+        // user input for the first 3x3 array
         System.out.println("Enter the elements of the first 3x3 array:");
         int[][] m1 = new int[3][3];
         enterMatrixElements(scanner, m1);
 
-        // Prompt the user to enter the second 3x3 array
+        //  user input for the second 3x3 array
         System.out.println("Enter the elements of the second 3x3 array:");
         int[][] m2 = new int[3][3];
         enterMatrixElements(scanner, m2);
