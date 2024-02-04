@@ -36,7 +36,7 @@ public class Circle extends GeometricObject implements Comparable<Circle> {
     } else if (this.radius > otherCircle.radius) {
       return 1;
     } else {
-      return 0
+      return 0;
     } 
   }
   // check if circles are equal
