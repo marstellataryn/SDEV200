@@ -9,7 +9,7 @@ public class TestGeometricObject {
     GeometricObject largerCircle = GeometricObject.max(circle1, circle2);
     GeometricObject largerRectangle = GeometricObject.max(rectangle1, rectangle2);
 
-    System.out.println("The larger circle has area: " + largerCircle.getArea());
-    System.out.println("The larger rectangle has area: " + largerRectangle.getArea());
+    System.out.println("The larger circle has an area of: " + largerCircle.getArea());
+    System.out.println("The larger rectangle has an area of: " + largerRectangle.getArea());
   }
 }
